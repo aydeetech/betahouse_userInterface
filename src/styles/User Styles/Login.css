@@ -1,0 +1,27 @@
+/* body {
+    background-color: #b29797;
+  } */
+  
+  .signup-container{
+    height: 100vh;
+    overflow-y: hidden !important;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .google-icon {
+    width: 35px;
+  }
+
+  .sss {
+    overflow: hidden !important;
+  }
+
+  @media screen and (max-width: 500px ) {
+    .signup-container {
+      overflow-y: scroll !important;
+      /* padding-top: 5rem !important; */
+    }
+  }
